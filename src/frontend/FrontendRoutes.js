@@ -14,4 +14,8 @@ router.get('/tabs', (req, res) => {
     res.sendFile(path.join(__dirname, '../../templates', 'tabs.html')); 
 });
 
+router.get('/home', (req, res) => {
+    res.sendFile(path.join(__dirname, '../../templates', 'home.html')); 
+});
+
 module.exports = router;

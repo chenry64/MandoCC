@@ -5,19 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chord Charts - MandoCC</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="../static/js/chords.js" defer></script>
+    <script src="js/chordchart.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Chord Charts</h1>
+        <nav>
+            <button id="home">Home</button>
+            <button id="tabChart">Tab Charts</button>
+        </nav>
     </header>
     <main>
-        <div id="chordContainer"></div>
-        <form id="chordForm">
-            <input type="text" id="chordTitle" placeholder="Chord Title" required>
-            <textarea id="chordContent" placeholder="Chord Content" required></textarea>
-            <button type="submit">Add Chord</button>
-        </form>
+        <div class="chord-row">
+            <img src="/static/img/gchord.jpg" alt="G Chord" class="chord-thumbnail">
+            <img src="/static/img/cchord.jpg" alt="C Chord" class="chord-thumbnail">
+            <img src="/static/img/dchord.jpg" alt="D Chord" class="chord-thumbnail">
+            <img src="/static/img/emchord.jpg" alt="E Minor Chord" class="chord-thumbnail">
+            <img src="/static/img/amchord.jpg" alt="A Minor Chord" class="chord-thumbnail">
+            <img src="/static/img/fchord.jpg" alt="F Chord" class="chord-thumbnail">
+            <img src="/static/img/dmchord.jpg" alt="D Minor Chord" class="chord-thumbnail">
+        </div>
+
+
+        <div class="chord-info-list">
+        <div class="chord-item">
+            <img src="/static/img/gchord.jpg" alt="G Chord" class="chord-image">
+            <div class="chord-info">
+                <h3>G Chord</h3>
+                <p><strong>Notes:</strong></p>
+                <ul>
+                    <li>D (5th)</li>
+                    <li>G (Root)</li>
+                    <li>B (major 3rd)</li>
+                    <li>G (Root)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="chord-item">
+            <img src="/static/img/cchord.jpg" alt="C Chord" class="chord-image">
+            <div class="chord-info">
+                <h3>C Chord</h3>
+                <p><strong>Notes:</strong></p>
+                <ul>
+                    <li>C (root)</li>
+                    <li>E (major 3rd)</li>
+                    <li>C (root)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="chord-item">
+            <img src="/static/img/dchord.jpg" alt="D Chord" class="chord-image">
+            <div class="chord-info">
+                <h3>D Chord</h3>
+                <p><strong>Notes:</strong></p>
+                <ul>
+                    <li>D (root)</li>
+                    <li>F# (major 3rd)</li>
+                    <li>D (root)</li>
+                    <li>F# (major 3rd)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="chord-item">
+            <img src="/static/img/emchord.jpg" alt="E Minor Chord" class="chord-image">
+            <div class="chord-info">
+                <h3>E Minor Chord</h3>
+                <p><strong>Notes:</strong></p>
+                <ul>
+                    <li>B (5th)</li>
+                    <li>E (root)</li>
+                    <li>B (5th)</li>
+                    <li>G (minor 3rd)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="chord-item">
+            <img src="/static/img/amchord.jpg" alt="A Minor Chord" class="chord-image">
+            <div class="chord-info">
+                <h3>A Minor Chord</h3>
+                <p><strong>Notes:</strong></p>
+                <ul>
+                    <li>A (root)</li>
+                    <li>E (5th)</li>
+                    <li>C (minor 3rd)</li>
+                    <li>A (root)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="chord-item">
+            <img src="/static/img/fchord.jpg" alt="F Chord" class="chord-image">
+            <div class="chord-info">
+                <h3>F Chord</h3>
+                <p><strong>Notes:</strong></p>
+                <ul>
+                    <li>C (5th)</li>
+                    <li>F (root)</li>
+                    <li>A (major 3rd)</li>
+                    <li>F (root)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="chord-item">
+            <img src="/static/img/dmchord.jpg" alt="D Minor Chord" class="chord-image">
+            <div class="chord-info">
+                <h3>D Minor Chord</h3>
+                <p><strong>Notes:</strong></p>
+                <ul>
+                    <li>A (5th)</li>
+                    <li>F (minor 3rd)</li>
+                    <li>D (root)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="chord-item">
+            <div class="chord-info">
+                <h3>G Scale</h3>
+                <p><strong>Notes:</strong></p>
+                <ul>
+                    <li>G (root)</li>
+                    <li>A (major 2nd)</li>
+                    <li>B (major 3rd)</li>
+                    <li>C (perfect 4th)</li>
+                    <li>D (perfect 5th)</li>
+                    <li>E (major 6th)</li>
+                    <li>F# (major 7th)</li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="g-theory-box">
+        <h3>Pentatonic Scale</h3>
+        <p>For a pentatonic scale, remove the 4th and 7th notes. The G Major Pentatonic scale is as follows: </p>
+        <ul>
+            <li>G (root)</li>
+            <li>A (major 2nd)</li>
+            <li>B (major 3rd)</li>
+            <li>D (perfect 5th)</li>
+            <li>E (major 6th)</li>
+        </ul>
+
+        <h4>Common Chord Progressions</h4>
+        <p>The following is a list of common chord progressions in G major</p>
+        <ul>
+            <li><strong>G - C - D</strong> (I - IV - V)</li>
+            <li><strong>G - D - Em - C</strong>: (I - V - VI - IV)</li>
+            <li><strong>G - A - D</strong> (I - II - V)</li>
+        </ul>
+    </div>
     </main>
 </body>
 </html>
