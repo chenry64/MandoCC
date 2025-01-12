@@ -1,0 +1,22 @@
+header {
+  background-image: url('../img/mountains.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9f3fc; 
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: #4a90e2; 
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
