@@ -8,12 +8,12 @@ header {
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #e9f3fc;
+    background-color: #e6e8ff;
     margin: 0;
     padding: 0;
 }
 button {
-    background-color: #4a90e2; 
+    background-color: #000f89; 
     color: white;
     border: none;
     padding: 10px 15px;
@@ -108,7 +108,7 @@ h1 {
 
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #000f89;
 }
 
 ul {

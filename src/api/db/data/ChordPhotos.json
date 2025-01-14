@@ -1,0 +1,23 @@
+{
+    "gMajor": {
+      "img": "/images/gchord.jpg"
+    },
+    "aMinor": {
+      "img": "/images/amchord.jpg"
+    },
+    "cMajor": {
+      "img": "/images/cchord.jpg"
+    },
+    "dMajor": {
+      "img": "/images/dchord.jpg"
+    },
+    "dMinor": {
+      "img": "/images/dmchord.jpg"
+    },
+    "fMajor": {
+      "img": "/images/fchord.jpg"
+    },
+    "eMinor": {
+      "img": "/images/emchord.jpg"
+    }
+}
